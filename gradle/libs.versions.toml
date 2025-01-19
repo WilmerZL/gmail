@@ -1,0 +1,61 @@
+[versions]
+agp = "8.7.3"
+circleimageview = "3.1.0"
+googleApiClient = "1.34.0"
+googleApiClientAndroid = "1.33.2"
+googleApiClientAndroidVersion = "1.34.0"
+googleApiClientGson = "2.0.0"
+googleApiClientVersion = "2.0.0"
+googleApiServicesGmail = "v1-rev110-1.25.0"
+googleApiServicesGmailVersion = "v1-rev20230501-2.0.0"
+googleGoogleApiClientAndroid = "1.34.1"
+googleGoogleApiServicesGmail = "v1-rev20230207-1.33.2"
+googleGoogleApiServicesGmailVersion = "v1-rev20220404-2.0.0"
+googleGoogleHttpClientGson = "1.41.1"
+googleHttpClientGson = "1.42.3"
+googleHttpClientGsonVersion = "1.40.1"
+googleOauthClientJetty = "1.33.2"
+googleOauthClientJettyVersion = "1.34.1"
+gson = "2.10.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+playServicesAuth = "21.3.0"
+playServicesAuthVersion = "20.7.0"
+
+[libraries]
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+client-google-api-client-gson = { module = "com.google.api.client:google-api-client-gson", version.ref = "googleApiClientGson" }
+google-api-client = { module = "com.google.api-client:google-api-client", version.ref = "googleApiClient" }
+google-api-client-android = { module = "com.google.api-client:google-api-client-android", version.ref = "googleApiClientAndroid" }
+google-api-client-android-v1340 = { module = "com.google.api-client:google-api-client-android", version.ref = "googleApiClientAndroidVersion" }
+google-api-client-android-v1341 = { module = "com.google.api-client:google-api-client-android", version.ref = "googleGoogleApiClientAndroid" }
+google-api-client-gson = { module = "com.google.api-client:google-api-client-gson", version.ref = "googleApiClientAndroid" }
+google-api-client-v200 = { module = "com.google.api-client:google-api-client", version.ref = "googleApiClientVersion" }
+google-api-services-gmail = { module = "com.google.apis:google-api-services-gmail", version.ref = "googleApiServicesGmail" }
+google-api-services-gmail-vv1rev20220404200 = { module = "com.google.apis:google-api-services-gmail", version.ref = "googleGoogleApiServicesGmailVersion" }
+google-api-services-gmail-vv1rev202302071332 = { module = "com.google.apis:google-api-services-gmail", version.ref = "googleGoogleApiServicesGmail" }
+google-api-services-gmail-vv1rev20230501200 = { module = "com.google.apis:google-api-services-gmail", version.ref = "googleApiServicesGmailVersion" }
+google-http-client-gson = { module = "com.google.http-client:google-http-client-gson", version.ref = "googleHttpClientGson" }
+google-http-client-gson-v1401 = { module = "com.google.http-client:google-http-client-gson", version.ref = "googleHttpClientGsonVersion" }
+google-http-client-gson-v1411 = { module = "com.google.http-client:google-http-client-gson", version.ref = "googleGoogleHttpClientGson" }
+google-oauth-client-jetty = { module = "com.google.oauth-client:google-oauth-client-jetty", version.ref = "googleOauthClientJetty" }
+google-oauth-client-jetty-v1341 = { module = "com.google.oauth-client:google-oauth-client-jetty", version.ref = "googleOauthClientJettyVersion" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-v2070 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
